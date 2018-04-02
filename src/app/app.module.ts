@@ -8,11 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 // Project files
 import { AppComponent } from './app.component';
 
-import { IntfinaleComponent } from './intfinale/intfinale.component';
 
-const appRoutes: Routes = [
-  { path: 'findprecious', component: IntfinaleComponent },
-];
 
 @NgModule({
   declarations: [
