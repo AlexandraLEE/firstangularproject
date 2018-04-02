@@ -14,6 +14,7 @@ import { environment } from './../environments/environment';
 // Project files
 import { AppComponent } from './app.component';
 import { IntfinaleComponent } from './intfinale/intfinale.component';
+import { TopCarouselComponent } from './top-carousel/top-carousel.component';
 
 const appRoutes: Routes = [
   { path: 'findprecious', component: IntfinaleComponent },
@@ -25,7 +26,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    IntfinaleComponent
+    IntfinaleComponent,
+    TopCarouselComponent
 
   ],
   imports: [
